@@ -1,0 +1,344 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-image: linear-gradient(135deg, #004d99, #00f3e6);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 1rem;
+}
+
+.menu a {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #0073e6, #00f1ff);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Services Section */
+.services {
+    padding: 4rem 2rem;
+    background-image: linear-gradient(135deg, #e6f2ff, #d9e8ff);
+}
+
+
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #e6f2ff;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Custom Label Section */
+.custom-label {
+    background: linear-gradient(135deg, #b3d1ff, #9ff2ff);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.custom-label h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.custom-label p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-label a {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #004d99;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* User Story: Object Mapping in Satellite Imagery */
+.user-story {
+    padding: 4rem 2rem;
+    background-color: #e6f2ff;
+}
+
+.user-story h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.story-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.story-text p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.story-image {
+    flex: 1;
+    max-width: 600px;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+.team {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #55f5f5, #ffffff);
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.team p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+
+/* Partners Section */
+.partners {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #e6f2ff, #d9e8ff);
+}
+
+.partners h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.partners p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 2rem;
+    background-color: #e6f2ff;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #004d99;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #0073e6;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #0073e6, #00f1ff);
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.social-links li {
+    margin: 0 0.5rem;
+}
+
+.social-links a {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
